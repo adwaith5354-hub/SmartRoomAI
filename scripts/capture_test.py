@@ -25,7 +25,7 @@ def main():
         print(f"Using webcam index {source}")
     else:
         # Fallback to a placeholder network stream – user must replace with actual IP.
-        source = "http://<YOUR_TABLET_IP>:8080/video"
+        source = "http://192.168.137.254:8080/video"
         print(f"No webcam found, attempting network stream: {source}")
 
     cam = CameraStream(source=source, fps=1.0)  # 1 fps capture
