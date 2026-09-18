@@ -73,4 +73,3 @@ An AI-powered spatial memory assistant that can scan a room using a camera, dete
 ## Getting Started
 
 See the documentation for each phase.
-
